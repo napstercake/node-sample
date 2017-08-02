@@ -4,7 +4,8 @@
   "description": "Node sample using api rest, mongo and nodemon",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start" : "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/napstercake/node-sample/issues"
   },
-  "homepage": "https://github.com/napstercake/node-sample#readme"
+  "homepage": "https://github.com/napstercake/node-sample#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
 }
