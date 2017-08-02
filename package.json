@@ -1,0 +1,19 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Node sample using api rest, mongo and nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napstercake/node-sample.git"
+  },
+  "author": "Ricardo Gonzales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/napstercake/node-sample/issues"
+  },
+  "homepage": "https://github.com/napstercake/node-sample#readme"
+}
